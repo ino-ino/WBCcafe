@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-color: #929F5D;
+    
+    
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+    height: 100vh;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+div img{
+    opacity: 0.5;
+    
+}
+
+.orange{
+    color: orange;
+}
+
+#red{
+    color: red;
+}
+
+p.tan{
+    color: tan;
+}
+
+div h1 {
+    background-color: #C95E2F;
+    
+}
+h3 {
+    background-color: #F2DB8D ;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Nerko One', cursive;
+}
+
+/*rel要素の指定の仕方は？id要素の識別子と同じようなこと？*/
+

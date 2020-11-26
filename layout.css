@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+.item{
+    
+    background: #559CB6;
+    color: #F9C770;
+    padding: 5px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-rows: 150px 150px;
+    
+}
+
+h5{
+    color: white;
+    font-size: 12px;
+    
+}

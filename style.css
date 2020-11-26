@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+p{
+    line-height: 1;
+    padding-left: 40px ;
+}
+
+h4{
+    border-bottom: medium double #AAB6E0
+     /*線を縦に引きたい　p１４３*/
+}
+
+ul{
+    list-style-image: url(list.png);
+    list-style-position: outside;
+    
+}
+
+li{
+   font-size: 10px;
+   color: #263F59;
+}
+
+.font{
+    line-height: 0.5;
+    padding-left:50px;
+    color: blue;
+ /*反映されない。p１４７*/
+    
+}
+
+
+.item{
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
