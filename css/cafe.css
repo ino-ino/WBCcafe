@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+/*共通部分＝＝＝＝＝＝＝＝＝＝*/
+html{
+    font-size: 100%;
+    background-color: #fff;
+    font-family: 'Nerko One', cursive;
+}
+
+body{
+    color: #FEF2E8;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    
+}
+/*header=======================*/
+.logo{
+    width: 130px;
+    margin-top: 14px;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+    
+}
+
+.main-nav li{
+    margin-left: 36px;
+}
+
+.main-nav a{
+    
+color:#FEF2E8;
+
+}
+
+.main-nav a:hover{
+    color: #824533;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*home=======================*/
+.home-content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-content p{
+    font-size: 13px;
+    margin: 10px 0px 30px;
+}
+
+.home-content a{
+    font-size: 15px;
+}
+
+.home-content h2{
+    font-size: 40px;
+}
+
+.button{
+  color: #fff;
+  border-top: 4px solid #533633;
+  border-right: 4px solid #CAAD8D;
+  border-bottom: 4px solid #CAAD8D;
+  border-left: 4px solid #533633;
+  border-radius: 0;
+  background: #C54F1F;
+}
+
+.button:hover {
+  color: #fff;
+  border-top: 4px solid #CAAD8D;
+  border-right: 4px solid #533633;
+  border-bottom: 4px solid #533633;
+  border-left: 4px solid #CAAD8D;
+}
+
+/*大きな背景画像*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+   
+    
+}
+
+#home{
+    background-image: url(../images/background2.jpg),linear-gradient(#F6CE3B,#385DAA);
+    /*background-color: #F29089;*/
+    background-blend-mode: luminosity;
+    min-height: 100vh;
+}
+
+#home .page-title{
+    text-transform: none;
+}
+
+
+/*news==========*/
+#news{
+    background-image: url(../images/background.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#news .page-title{
+    text-align: center;
+    font-size: 60px;
+    font-family: serif;
+    color: black;
+}
+
+/*footer==============*/
+footer{
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p{
+    font-size: 0.875rem;
+}
+/*news-content wrapper============*/
+article{
+    width: 74%;
+}
+
+aside{
+    width: 22%;
+}
+
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.post-info{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+.post-date{
+    font-family: serif;
+    background: #0bd;
+    border-radius: 50%;
+    color: #fff;
+    width:100px;
+    height: 100px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+
+.post-date span{
+    font-size: 1rem;
+    border-top: 1px rgba(255,255,255,.5) solid;
+    /*横線が入らない*/
+    padding-top: 6px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.post-title{
+    font-size: 1.9rem;
+    font-weight: normal;
+}
+
+.post-title, 
+.post-cat{
+    margin-left: 120px;
+}
+
+article{
+    width: 60%;
+}
+
+article img {
+    margin-bottom: 20px;
+    
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 10px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+    
+}
+
+aside{
+    width: 30%;
+    padding: 20px;
+}
+
+aside p {
+    padding: 12px 10px;
+}
+
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+    
+}
+
+.sub-menu a {
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu a:hover{
+    color: #0bd;
+}
+
+.ad img{
+    width: 10%;
+}
+
+
+/*menu==============*/
+
+#menu{
+    background-image: url(../images/menu.jpg);
+    min-height: 100vh;
+    
+}
+
+.menu-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+
+.menu-content .page-title{
+    text-align: center;
+}
+
+.menu-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 0 ;
+}
+
+
+
+
+/*モバイル版＝＝＝＝＝＝＝＝＝＝*/
+/*モバイルで今見れないからわからないけど、とりあえず書く*/
+@media (max-width: 600px) {
+    .page-title{
+        font-size: 2.5rem;
+    }
+    
+    /*header*/
+    .main-nav{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li{
+        margin: 0 20px;
+    }
+    
+    /*home*/
+    .home-content{
+        margin-top: 20%;
+    }
+    
+    .page-header{
+        flex-direction: columu;
+        align-items: center;
+    }
+    
+    /*news*/
+    .news-contents{
+        flex-direction: columu;
+    }
+    article,
+    aside{
+        width: 100%;
+    }
+    
+    /*#news .page-title{
+        margin-top: px;
+        
+    }
+    aside{
+        margin-top: px;
+    }
+    .post-info{
+        margin-bottom: px;
+    }
+    .post-date{
+        width: px;
+        height: px;
+        font-size: 1rem;
+        
+    }
+    .post-date span{
+        font-size: 0.875rem;
+        padding-top: px;
+    }
+    .post-title{
+        font-size: 1.375rem;
+    }
+    .post-cat{
+        font-size: 0.875rem;
+        margin-top: px;
+    }
+    .post-title,
+    .post-cat{
+        margin-left: px;
+    }
+    後ほどモバイル見ながら自分でやりたい*/
+}
+
