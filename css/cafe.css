@@ -266,8 +266,12 @@ aside p {
     
 }
 
+#menu .page-title{
+    font-size: 50px;
+}
+
 .menu-content{
-    max-width: 600px;
+    max-width: 640px;
     margin-top: 10%;
 }
 
@@ -276,6 +280,7 @@ aside p {
     font-family: serif;
     margin-top: 50%;
 }
+
 
 .menu-content p{
     font-size: 15px;
@@ -289,6 +294,7 @@ aside p {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 30%;
     margin-bottom: 50px;
+    color: black;
 }
 
 .big-box{
