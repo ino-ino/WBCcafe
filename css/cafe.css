@@ -307,7 +307,86 @@ aside p {
     width: 100%;
     object-fit: cover;
 }
-/**/
+/*contact=============*/
+#contact {
+    background-image: url(../images/office.jpg);
+    height: 650px;
+    width: 100%;
+    color: black;
+}
+
+
+#contact .page-title{
+     font-family: serif;
+}
+
+/*フォーム＝＝＝＝＝＝＝＝*/
+form div{
+    margin-bottom: 14px;
+}
+
+lavel{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    background: rgba(255,255,255,.5);
+    border: 1px #385DAA solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    max-width: 200px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 500px;
+    height: 6rem;
+}
+
+section{
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+/*ホテル情報　地図*/
+#location {
+    padding : 10% 0;
+}
+
+#location .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info {
+    width: 22%;
+}
+
+.location-info p{
+    padding: 12px 10px;
+}
+
+.location-map{
+    width: 74%;
+}
+
+iframe{
+    width: 100%;
+}
 
 
 /*モバイル版＝＝＝＝＝＝＝＝＝＝*/
