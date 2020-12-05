@@ -137,6 +137,8 @@ footer{
     background: #432;
     text-align: center;
     padding: 26px 0;
+    
+    
 }
 
 footer p{
@@ -258,25 +260,48 @@ aside p {
 
 #menu{
     background-image: url(../images/menu.jpg);
+    background-size: contain;
     min-height: 100vh;
+    
     
 }
 
 .menu-content{
-    max-width: 560px;
+    max-width: 600px;
     margin-top: 10%;
 }
 
 .menu-content .page-title{
     text-align: center;
+    font-family: serif;
+    margin-top: 50%;
 }
 
 .menu-content p{
-    font-size: 1.125rem;
+    font-size: 15px;
     margin: 10px 0 0 ;
+    text-align: center;
 }
 
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30%;
+    margin-bottom: 50px;
+}
 
+.big-box{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.big-box img{
+    height: 94%;
+    width: 100%;
+    object-fit: cover;
+}
+/**/
 
 
 /*モバイル版＝＝＝＝＝＝＝＝＝＝*/
@@ -301,13 +326,13 @@ aside p {
     }
     
     .page-header{
-        flex-direction: columu;
+        flex-direction: column;
         align-items: center;
     }
     
     /*news*/
     .news-contents{
-        flex-direction: columu;
+        flex-direction: column;
     }
     article,
     aside{
