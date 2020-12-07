@@ -8,10 +8,23 @@
     
     
     <script>
-    const weather = ["雨","晴れ","曇り","雪"];
-　　const rnd = Math.floor(Math.random() * weather.length);
+    const weather = ["雨","晴れ","雷","曇り","雪"];
+　　weather.forEach(weather =>{
+　　  if(weather === "雷"){
+　　    
+　　    console.log("明日はくもりでしょう");
+　　}else if(weather === "曇り"){
+　　  
+　　    console.log("明日は曇りでしょう");
+　　}else if(weather === "晴れ"){
+　　  
+　　    console.log("明日は晴れでしょう");
+　　}else{
+　　  console.log("該当する天気はありません");
+　　}
+　　//表示の順番がわからない。consolo.logは４つ、表示結果は５つの謎？
+　　})
     
-    console.log(weather[rnd]);    
 
     </script>
   </body>
